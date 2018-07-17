@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>{{title}} working</h1>
+    {% for obj in object_list %}
+
+    {{obj.title}}<br/>
+    {{obj.content}}<br/>
+    {{obj.timestamp}}<br/>
+    {{obj.updated}}<br/>
+    {{obj.id}}<br/>
+    {{obj.pk}}<br/>
+
+    {% endfor %}
+
+  </body>
+</html>
